@@ -1,0 +1,6 @@
+-keep class com.lock.screen.AdminReceiver { *; }
+-keep class com.lock.screen.MainActivity { *; }
+-renamesourcefileattribute SourceFile
+-keepattributes SourceFile,LineNumberTable
+-optimizationpasses 5
+-allowaccessmodification
