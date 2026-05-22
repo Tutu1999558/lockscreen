@@ -24,10 +24,10 @@ jobs:
           echo "PATH=$PWD/gradle-8.4/bin:$PATH" >> $GITHUB_ENV
 
       - name: Build Release APK
-        run: gradle assembleRelease
+        run: gradle assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: LockScreen
-          path: app/build/outputs/apk/release/app-release-unsigned.apk
+          path: app/build/outputs/apk/debug/app-debug.apk
