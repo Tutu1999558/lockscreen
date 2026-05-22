@@ -3,7 +3,6 @@
     package="com.lock.screen">
 
     <application
-        android:icon="@mipmap/ic_launcher"
         android:label="锁屏"
         android:allowBackup="false">
 
